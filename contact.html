@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Autospecs Motor Sales</title>
+    <meta name="description" content="Autospecs Motor Sales" />
+    <meta name="author" content="Ken Lee" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+
+  <body class="container d-flex flex-column justify-content-between">
+    <header>
+      <nav class="navbar navbar-light navbar-expand-md">
+        <a class="banner" href="/"
+          ><img class="logo" src="assets/autospecs_banner.jpg"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="content full-remaining">
+      <h1>Contact Us</h1>
+      <div
+        class="contact-layout d-flex flex-column-reverse flex-md-row justify-content-md-around"
+      >
+        <div id="map"></div>
+        <div class="divider mt-2 mb-2"></div>
+        <div>
+          <p>
+            <img src="assets/business.png" alt="address" title="Address" />: 37H
+            Banawe Street, Quezon City, Philippines
+          </p>
+          <p>
+            <img src="assets/landline.png" alt="landline" title="Landline" />:
+            732-3835, 414-2463, 711-5046
+          </p>
+          <p>
+            <img src="assets/mobile.png" alt="mobile number" title="Mobile" />:
+            09173061989
+          </p>
+          <p>
+            <img src="assets/facebook.png" alt="facebook" title="Facebook" />:
+            <a href="https://www.facebook.com/autospecsmotorsales/"
+              >Autospecs Motor Sales</a
+            >
+          </p>
+          <p>
+            <img src="assets/mail.png" alt="e-mail" title="E-mail" />:
+            autospecsmotorsales@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>
+        Autospecs Motor Sales is a Dealer of Japanese, Korean and European Car
+        Parts and Accessories. Brand New, Surplus Replacement and Optional Parts
+        are available for brands such as Honda, Mitsubishi, Toyota, Nissan,
+        Mazda, Isuzu, Kia, Hyundai, BMW, Ford and Mercedez Benz.
+      </div>
+      <div class="divider"></div>
+      <div>
+        All Rights Reserved by Autospecs Motor Sales. <br />
+        © 2011-2020
+      </div>
+    </footer>
+    <script src="map.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAczg3nv2X-UC4_YDR9h2keV4ido3tT_tI&callback=initMap"
+    ></script>
+  </body>
+</html>

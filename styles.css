@@ -1,0 +1,141 @@
+html,
+body {
+  max-height: 100%;
+  height: 100%;
+  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  font-size: 0.875em;
+}
+
+.navbar-light .navbar-nav .navbar-item .nav-link {
+  color: black;
+}
+
+.content {
+  justify-content: center;
+  align-items: center;
+}
+
+.full-remaining {
+  flex: auto;
+}
+
+#map {
+  width: 100%;
+  height: 365px;
+}
+
+.banner {
+  width: 80%;
+}
+
+img.logo {
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.description-frame {
+  border-top: 1rem solid black;
+  border-bottom: 1rem solid black;
+  color: white;
+  overflow: hidden;
+  direction: rtl;
+}
+
+@media (min-width: 400px) {
+  img.logo {
+    width: 275px;
+  }
+}
+
+@media (min-width: 576px) {
+  img.logo {
+    width: 350px;
+  }
+
+  .description-frame {
+    border-top: 5rem solid black;
+    border-bottom: 5rem solid black;
+  }
+}
+
+@media (min-width: 768px) {
+  img.logo {
+    width: auto;
+  }
+
+  .description {
+    width: 375px;
+  }
+
+  div.product {
+    background-position: center;
+  }
+
+  #map {
+    width: 300px;
+  }
+
+  .content .divider {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .content #mainCarousel,
+  div.product {
+    max-width: 890px;
+    margin: auto;
+  }
+
+  #map {
+    width: 425px;
+  }
+
+  footer {
+    padding: 0 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+
+  footer {
+    padding: 0 1rem;
+  }
+}
+
+div.product {
+  background-color: black;
+  background-image: url(assets/product_mod_nb.jpg);
+  background-size: 1000px auto;
+  background-repeat: no-repeat;
+}
+
+.description {
+  padding: 0.25rem 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  direction: ltr;
+}
+
+.emph {
+  font-weight: bold;
+}
+
+.contact-layout {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+footer {
+  padding-bottom: 0.5rem;
+}
+
+.divider {
+  height: 1px;
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 0, 0, 0));
+}
